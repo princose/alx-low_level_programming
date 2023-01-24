@@ -6,7 +6,7 @@
  * @f: A pointer function
  * Return: No return cause we've declared VOID as R_TYPE
  */
-viod print_name(char *name, void (*f)(char *))
+void print_name(char *name, void (*f)(char *))
 {
 	if (!name || !f)
 		return;
